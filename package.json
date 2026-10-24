@@ -1,0 +1,23 @@
+{
+  "name": "vdlab-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "VDLab - 网页版车辆动力学仿真平台（类 CarSim / VI-CarRealTime）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.170.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0",
+    "vitest": "^3.2.0"
+  }
+}
